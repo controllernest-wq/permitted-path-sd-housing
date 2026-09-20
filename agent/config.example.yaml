@@ -1,6 +1,12 @@
 markets:
-  - san-diego-county
-max_price: 1104000
+  - las-vegas-clark
+  - phoenix-maricopa
+  - palm-springs-riverside
+max_price_by_market:
+  las-vegas-clark: 541287
+  phoenix-maricopa: 557750
+  palm-springs-riverside: 690000
+max_price: 690000
 min_units: 1
 max_units: 4
 must_allow_owner_occupy: true
@@ -11,16 +17,19 @@ prefer_keywords:
   - "2 unit"
   - "3 unit"
   - ADU
+  - casita
   - "guest house"
-  - "permitted"
+  - permitted
   - probate
   - HUD
 avoid_keywords:
   - unpermitted
   - cash only
-  - "as-is investor only"
+  - "investor only"
+  - Airbnb
+  - "short term"
 sources:
   hud_homestore: true
   manual_csv: agent/data/manual_listings.csv
   program_pages: true
-user_agent: "permitted-path-sd-housing educational-research"
+user_agent: "permitted-path-housing educational-research"

@@ -8,18 +8,13 @@ from typing import Any
 
 import httpx
 
-HUD_HOMESTORE = "https://www.hudhomestore.gov/"
-CALHFA_MYHOME = "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm"
-SDHC_FTHB = "https://sdhc.org/housing-opportunities/first-time-homebuyers/"
-GSFA_PLATINUM = "https://www.gsfahome.org/programs/dpa/platinum.shtml"
-SD_IB400 = "https://www.sandiego.gov/development-services/forms-publications/information-bulletins/400"
-
 PROGRAM_PAGES = {
-    "calhfa_myhome": CALHFA_MYHOME,
-    "sdhc_fthb": SDHC_FTHB,
-    "gsfa_platinum": GSFA_PLATINUM,
-    "sd_adu_ib400": SD_IB400,
-    "hud_homestore": HUD_HOMESTORE,
+    "hud_limits": "https://www.hud.gov/program_offices/housing/sfh/lender/origination/mortgage_limits",
+    "nv_hip": "https://www.homeispossiblenv.org/",
+    "az_homeplus": "https://homeplusaz.com/",
+    "calhfa_myhome": "https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm",
+    "rivco_hws": "https://rivcohws.org/housing-programs",
+    "hud_homestore": "https://www.hudhomestore.gov/",
 }
 
 
