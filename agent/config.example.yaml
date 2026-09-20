@@ -1,0 +1,26 @@
+markets:
+  - san-diego-county
+max_price: 1104000
+min_units: 1
+max_units: 4
+must_allow_owner_occupy: true
+prefer_keywords:
+  - duplex
+  - triplex
+  - fourplex
+  - "2 unit"
+  - "3 unit"
+  - ADU
+  - "guest house"
+  - "permitted"
+  - probate
+  - HUD
+avoid_keywords:
+  - unpermitted
+  - cash only
+  - "as-is investor only"
+sources:
+  hud_homestore: true
+  manual_csv: agent/data/manual_listings.csv
+  program_pages: true
+user_agent: "permitted-path-sd-housing educational-research"

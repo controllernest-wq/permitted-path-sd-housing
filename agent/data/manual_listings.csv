@@ -1,0 +1,2 @@
+id,address,city,price,units,adu,dom,price_cut_pct,source_url,notes
+example-1,100 Example St,El Cajon,749000,2,false,52,9,https://example.invalid,Replace this row with your agent's export
