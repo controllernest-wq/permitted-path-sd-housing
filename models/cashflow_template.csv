@@ -1,0 +1,27 @@
+field,example,your_deal,notes
+address,123 Example Ave El Cajon,,
+property_type,duplex|triplex|sfr+adu,,
+legal_unit_count,2,,assessor + permits
+purchase_price,750000,,
+closing_costs_gross,18000,,
+seller_credits,10000,,
+dpa_amount,26250,,GSFA/Chenoa/CalHFA
+cash_from_you,8000,,earnest + reserves not in DPA
+loan_amount,736875,,price - down + financed UFMIP if any
+rate_pct,6.25,,
+term_months,360,,
+pi_monthly,4535,,recalculate
+taxes_monthly,650,,new assessed value
+insurance_monthly,220,,landlord quote after year 1
+hoa_monthly,0,,
+mip_or_pmi_monthly,340,,FHA annual MIP often life-of-loan <10% down
+piti_monthly,5745,,
+rent_other_units_month1,2800,,only legal units you will not occupy
+rent_your_unit_after_move,2400,,month 13+
+vacancy_pct,8,,
+maintenance_pct,8,,
+property_mgmt_pct_after_move,8,,0 while you live there if self-manage
+year1_housing_cost_to_you,2945,,piti - other unit rent + reserves
+year2_cashflow_all_rented,200,,stress this number
+section_121_eligible_if_sold_month12,no,,need ~24 months use
+occupancy_program,FHA_12mo,,do not mix with SDHC if leaving
